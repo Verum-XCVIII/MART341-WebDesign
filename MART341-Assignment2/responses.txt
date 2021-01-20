@@ -1,0 +1,21 @@
+1. How is the world wide web different than the internet?
+  The internet is a network of computers on which the world wide web is hosted on. The world wide web being the websites themselves which can be visited when connected to the internet.
+  
+2. Briefly describe how the internet works.
+  The internet is a computer network which works in the same way a local area network does, simply on a global scale. The computers which are a part of the network are all given a unique code which represents them (an IP address), and the computers can then send and request packets of data by referencing the IP address the data is to be sent to.
+  
+3. What is a directory, and what is its relationship to files?
+  A directory is simply the more technical term for a file, it is a file system cataloging structure, a system of hierarchical structure which catalogs where files/data is stored within a computer's storage (HDD/SSD).
+  
+4. How will VCS benefit you?
+  A Version Control System (VCS) saves changes made to a file or set of files so that specific earlier versions can be recalled. This can allow for recovery of lost/deleted files, comparing changes made over time, and complete reversion to a previous state should a mistake within one's code "break" their project and the issue cannot be found or resolved.
+  
+5. Take a screenshot anytime while working on your homework.
+  Yes? Ok?
+  
+6. What is your favorite kind of art?
+  That question becomes significantly more difficult depending on what kind of art you're wanting for an answer. With a broad “everything is art” view, my answer would be video games. If you're wanting a traditional fine art answer, then I have no idea.
+  
+7. Rename this screenshot using proper naming conventions, and upload it to your assignment02 directory.
+  Ok? Done?
+  
