@@ -9,7 +9,7 @@
   
   3 - The basics of the Markdown language, such as how to denote bold, italics, headers, and code.
 
-|
+# 
 
 - External Website Links:
 
