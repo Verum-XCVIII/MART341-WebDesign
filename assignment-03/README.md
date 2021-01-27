@@ -9,17 +9,20 @@
   
   3 - The basics of the Markdown language, such as how to denote bold, italics, headers, and code.
 
+|
 
 External Website Links:
 
-1 - [Nexus Mods](https://www.nexusmods.com/)
+  1 - [Nexus Mods](https://www.nexusmods.com/)
 
-2 - [Youtube](https://www.youtube.com/)
+  2 - [Youtube](https://www.youtube.com/)
 
-3 - [Wikipedia](https://www.wikipedia.org/)
+  3 - [Wikipedia](https://www.wikipedia.org/)
 
+|
 
 [Responses Text File Link](./responses.txt)
 
+|
 
 ![AtomAssignment3ProjectScreenshot](./images/Mart341Assignment3Screenshot.png)
