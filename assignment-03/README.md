@@ -2,8 +2,11 @@
 ## Kalen Weinheimer
 
 - Add a list of 3 things you’ve learned so far.
+
   1 - The different parts which make up a URL, the protocol, domain, path, and file.
+  
   2 - How to read the additional contents of a URL, such as distinguishing a port, parameters, and an anchor.
+  
   3 - The basics of the Markdown language, such as how to denote bold, italics, headers, and code.
 
 External Website Links:
