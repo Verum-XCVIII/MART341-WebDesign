@@ -1,0 +1,15 @@
+1 - Provide three websites that you enjoy visiting?
+  1 - https://www.nexusmods.com/
+  2 - https://www.youtube.com/
+  3 - https://www.wikipedia.org/
+
+2 - What is the relationship between an IP address and the DNS?
+  The DNS takes the domain name or URL that is inputted and translates it into the specific IP address of the website.
+
+3 - What is a cookie?
+  A cookie is data which a server has stored onto the client computer's hard drive rather than the ram as a means of saving information (such as login details) even if the client computer restarts.
+
+4 - List three essential parts of a URL.
+  1 - Protocol
+  2 - Domain
+  3 - File
