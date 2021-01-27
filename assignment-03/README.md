@@ -19,10 +19,10 @@
 
   3 - [Wikipedia](https://www.wikipedia.org/)
 
-|
+# 
 
 [Responses Text File Link](./responses.txt)
 
-|
+# 
 
 ![AtomAssignment3ProjectScreenshot](./images/Mart341Assignment3Screenshot.png)
