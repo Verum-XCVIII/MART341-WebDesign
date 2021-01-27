@@ -11,7 +11,7 @@
 
 |
 
-External Website Links:
+- External Website Links:
 
   1 - [Nexus Mods](https://www.nexusmods.com/)
 
