@@ -1,0 +1,145 @@
+html,
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background-color: #444;
+}
+
+main {
+  display: block;
+  height: 100%;
+  margin: 0% 12% 0% 12%;
+  background-color: #888;
+}
+
+h1 {
+  font-family: sans-serif, Verdana;
+  text-align: center;
+  font-size: 2.4em;
+  padding: .84em 0em .48em 0em;
+  color: #222;
+}
+
+h2 {
+  font-family: monospace, "lucida console";
+  text-align: center;
+  font-size: 2.2em;
+  padding: .36em 0em .48em 0em;
+  color: #202020;
+}
+
+hr {
+  border-top: .16em solid rgba(0, 148, 208, .64);
+
+}
+
+textarea {
+  width: 71%;
+  height: 16em;
+  line-height: 200%;
+  padding: .48em .86em .48em .86em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  align-self: center;
+  border-left: .2em solid #222;
+  border-top: .2em solid #222;
+  border-right: .2em solid #777;
+  border-bottom: .2em solid #777;
+  background-color: #aaa;
+}
+
+.logoImg {
+  display: block;
+  float: Left;
+  margin: 3.6em 0em .2em 4.4em;
+}
+
+.logoText {
+  display: block;
+  margin: 1em 2.2em .2em auto;
+}
+
+.videoTable table {
+  border-spacing: 1.4em;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  align: center;
+}
+
+.videoTable img {
+  display: block;
+  align: center;
+  margin: 0 auto 0 auto;
+  width: 14em;
+  max-width: 14em;
+  padding: 0% 0% 0% 0%;
+}
+
+.contactForm input {
+  margin: 0em .2em 0em .2em;
+  background-color: #aaa;
+}
+
+.contactForm table {
+  border-spacing: .2em;
+  padding: .2em .2em .2em .2em;
+  margin: .2em .2em .2em 7.4em;
+}
+
+.contactForm table tr td {
+  padding: .52em 0em .52em 0em;
+}
+
+#addressBlock {
+  margin: 1em 1.4em 1em auto;
+  background-color: rgba(32, 32, 32, .08);
+  border-spacing: .8em;
+}
+
+#addressBlock tr td address{
+  line-height: 1.6em;
+}
+
+#commentSubmit {
+  display: flex;
+  justify-content: center;
+  margin: 1.8em 0em 3em 1.4em;
+  background-color: #bbb;
+}
+
+#userEmail {
+  width: 18em;
+}
+
+#counter {
+  position: absolute;
+  margin: 12.82em 0em 0em 47.4em;
+  text-align: center;
+  border: 0 solid #000;
+  font-family: Monospace, Monaco;
+  font-size: 1em;
+  color: #444;
+}
+
+#counterMax {
+  position: absolute;
+  margin: 12.8em 0em 0em 49.4em;
+  text-align: center;
+  font-family: Monospace, Monaco;
+  font-size: 1em;
+  color: #444;
+}
+
+/**
+table, th, td {
+  border: 1px solid #111;
+}
+**/

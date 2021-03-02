@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kalen Weinheimer">
+  <meta name="description" content="Contrarium Productum Info">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <h1>Contrarium Productum</h1> <br /><hr /><br />
+
+    <img src="images/ContrariumProductumIcon.png" alt="Contrarium Productum Logo" title="Contrarium Productum Logo" width="38%" height="38%" class="logoImg"/>
+
+    <img src="images/ContrariumProductum-Text.png" alt="Contrarium Productum" title="Contrarium Productum Logo Text" width="32%" height="32%" class="logoText"/>
+
+    <table id="addressBlock">
+      <tr>
+        <td>
+          <hr style="opacity: .32"/> <br /><br />
+          <address align="right">
+            Contrarium Productum Productions<br />
+            00 Actually Absent Avenue<br />
+            Milky Way, Virgo Cluster, Virgo Supercluster <br /><br />
+            <em>Phone Number</em>: <def title="n/a">0-000-000-0000</def>
+          </address> <br /> <br />
+          <a href="mailto:contrariumproductum@gmail.com">E-mail us @ contrariumproductum@gmail.com</a> <br /><br /><br />
+          <hr style="opacity: .32"/>
+        </td>
+      </tr>
+    </table> <br /><br /><br /><br />
+
+    <h2>Featured Videos</h2> <hr /><br /><br /><br />
+
+    <a class="videoTable"><table>
+      <tr>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail1.png" /></a></td>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail2.png" /></a></td>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail3.png" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail4.png" /></a></td>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail5.png" /></a></td>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail6.png" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail7.png" /></a></td>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail8.png" /></a></td>
+        <td><a href="https://youtu.be/" target="_blank"><img src="images/SampleThumbnail9.png" /></a></td>
+      </tr>
+    </table></a>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <div class="contactForm">
+      <h2>Contact Us</h2> <hr /><br /><br /><br />
+
+      <form type="Post" action="">
+        <table>
+          <tr><td>First Name:</td> <td><input type="text" id="fName" placeholder=" Enter Your First Name"></td></tr>
+      		<tr><td>Last Name:</td> <td><input type="text" id="lName" placeholder=" Enter Your Last Name"></td></tr>
+          <tr><td></td><td></td></tr><tr><td></td><td></td></tr>
+          <tr><td>EMail Address:</td> <td><input type="text" id="userEmail" placeholder=" Leave your email so we might respond!"></td></tr>
+          <tr><td>Comment:</td><td></td></tr>
+        </table>
+
+        <input disabled  maxlength="500" size="3" value="500" id="counter">
+        <p id="counterMax">/500</p>
+        <textarea onkeyup="textCounter(this,'counter',500);" id="userComment" maxlength="500" placeholder="Leave your comment here within 500 characters."></textarea>
+        <button id="commentSubmit" type="submit" style="padding: .1em .4em .1em .4em; float: right; margin-right:10em">Submit</button>
+        <input type="radio" name="TermsOfAgreement" value="accept" style="margin: 1.2em 0em .6em 9.6em"> I accept the terms of agreement. <br />
+        <input type="radio" name="TermsOfAgreement" value="deny" style="margin: .6em 0em .6em 9.6em"> I do not accept the terms of agreement.
+      </form>
+
+      <!--I did not make this code, it was found at: -->
+      <!-- https://stackoverflow.com/questions/12742595/show-how-many-characters-remaining-in-a-html-text-box-using-javascript-->
+      <script>
+        function textCounter(field,field2,maxlimit) {
+          var countfield = document.getElementById(field2);
+          if ( field.value.length > maxlimit ) {
+            field.value = field.value.substring( 0, maxlimit );
+            return false;
+          } else {
+            countfield.value = maxlimit - field.value.length;
+          }
+        }
+      </script>
+    </div> <br /><br /><br /><br /><br /><br />
+
+  </main>
+</body>
+</html>
